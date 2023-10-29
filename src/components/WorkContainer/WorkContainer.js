@@ -5,11 +5,12 @@ import './WorkContainer.css'
 
 const WorkContainer = ({ project }) => (
 
-  <div className='project'>
+  <div className='project' >
     <img src={project.img} alt = "companies" className='project__img'/>
     <h3  className='project__name'>{project.name}</h3>
-    <hr style={{borderTop:"3px solid black",marginTop:"60px"}}/>
+    <i><h4 className='project__title'>{project.title}</h4></i>
 
+    <hr style={{borderTop:"3px solid black",marginTop:"60px"}}/>
     <p className='project__description'>{project.description}</p>
 
     {/* {console.log(project.description)} */}
