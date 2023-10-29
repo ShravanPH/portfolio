@@ -1,18 +1,18 @@
 import uniqid from 'uniqid'
 import { Button } from '@material-ui/core'
-import { work } from '../../portfolio'
+import { extras } from '../../portfolio'
 import WorkContainer from '../WorkContainer/WorkContainer'
-import './Work.css'
+import './Extras.css'
 
-const Work = () => {
-  if (!work.length) return null
+const Extras = () => {
+  if (!extras.length) return null
 
   return (
     <section id='Work' className='section Work'>
-      <h2 className='section__title'>Work Experience</h2>
+      <h2 className='section__title'>Extra curriculars</h2>
 
       <div className='Work__grid'>
-        {work.map((project) => (
+        {extras.map((project) => (
           <WorkContainer key={uniqid()} project={project} />
         ))}
       </div>
@@ -21,4 +21,4 @@ const Work = () => {
   )
 }
 
-export default Work
+export default Extras

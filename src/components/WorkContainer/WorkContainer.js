@@ -4,10 +4,14 @@ import LaunchIcon from '@material-ui/icons/Launch'
 import './WorkContainer.css'
 
 const WorkContainer = ({ project }) => (
-  <div className='project'>
-    <h3>{project.name}</h3>
 
+  <div className='project'>
+    <img src={project.img} alt = "companies" className='project__img'/>
+    <h3  className='project__name'>{project.name}</h3>
+    <hr style={{borderTop:"3px solid black",marginTop:"60px"}}/>
+    
     <p className='project__description'>{project.description}</p>
+    {/* <p className='project__description'>{project.title}</p> */}
     {project.stack && (
       <ul className='project__stack'>
         {project.stack.map((item) => (
@@ -18,7 +22,8 @@ const WorkContainer = ({ project }) => (
       </ul>
     )}
 
-    {project.sourceCode && (
+
+    {/* {project.sourceCode && (
       <a
         href={project.sourceCode}
         aria-label='source code'
@@ -36,7 +41,7 @@ const WorkContainer = ({ project }) => (
       >
         <LaunchIcon />
       </a>
-    )}
+    )} */}
   </div>
 )
 
