@@ -16,7 +16,9 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Shravan Honaganahalli',
-  role: 'Pianist  🎹 • Software Engineer 👨🏻‍💻 • Tennis Player 🎾',
+  role1: 'Pianist  🎹 ',
+  role2: '\n Software Engineer 👨🏻‍💻 \n',
+  role3: ' Tennis Player 🎾',
   description:
     'Throughout my academic and professional journey, I have been captivated by the world of computers and technology. This lifelong fascination has fueled my dedication to pursuing a career in computer science. ',
   resume: 'https://example.com',

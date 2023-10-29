@@ -6,7 +6,7 @@ import SPH2024 from '../../SPH2024.pdf'
 import me from '../../assets/me.jpg'
 
 const About = () => {
-  const { name, role, description,resume, social } = about
+  const { name, role1,role2,role3, description,resume, social } = about
 
   return (
     <div className='about center'>
@@ -23,10 +23,12 @@ const About = () => {
       )}
 
       <div style={{ textAlign:'center'}}>
-        {role && <h2 className='about__role' >{role}</h2>}
+        {role1 && <h2 className='about__role' >{role1}<b>{role2}</b>{role3}</h2>}
+        {/* {role2 && <h2 className='about__role' >{role2}</h2>}
+        {role3 && <h2 className='about__role' >{role3}</h2>} */}
+
         <p className='about__desc' >{description && description}</p>
         <div style={{marginTop:50}}> 
-        {/* <embed src={SPH2024} width="800px" height="2100px" /> */}
             <a href={SPH2024}  >
               <span type='button' className='btn btn--outline '>
                 Resume
