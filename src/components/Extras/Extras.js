@@ -1,19 +1,19 @@
 import uniqid from 'uniqid'
 import { Button } from '@material-ui/core'
 import { extras } from '../../portfolio'
-import WorkContainer from '../WorkContainer/WorkContainer'
+import ExtraContainer from '../ExtraContainer/ExtraContainer'
 import './Extras.css'
 
 const Extras = () => {
   if (!extras.length) return null
 
   return (
-    <section id='Work' className='section Work'>
-      <h2 className='section__title'>Extra curriculars</h2>
+    <section id='extras' className='section extras'>
+      <h2 className='section__title'>Education & Projects</h2>
 
-      <div className='Work__grid'>
+      <div className='extra__grid'>
         {extras.map((project) => (
-          <WorkContainer key={uniqid()} project={project} />
+          <ExtraContainer key={uniqid()} project={project} />
         ))}
       </div>
 

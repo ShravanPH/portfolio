@@ -20,6 +20,8 @@
 .about__desc {
   font-size: 1rem;
   text-align: center;
+  font-weight: 500;
+
 }
 
 .about__desc,
