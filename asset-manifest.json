@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.7719ffdf.chunk.css",
+    "main.js": "/portfolio/static/js/main.2e8d224b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.2e8d224b.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.903f59e9.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.903f59e9.js.map",
+    "static/js/2.d4e55f55.chunk.js": "/portfolio/static/js/2.d4e55f55.chunk.js",
+    "static/js/2.d4e55f55.chunk.js.map": "/portfolio/static/js/2.d4e55f55.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.7719ffdf.chunk.css.map": "/portfolio/static/css/main.7719ffdf.chunk.css.map",
+    "static/js/2.d4e55f55.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d4e55f55.chunk.js.LICENSE.txt",
+    "static/media/SPH2024.f710965e.pdf": "/portfolio/static/media/SPH2024.f710965e.pdf",
+    "static/media/acm.42a724f5.svg": "/portfolio/static/media/acm.42a724f5.svg",
+    "static/media/frb.ac8df02a.svg": "/portfolio/static/media/frb.ac8df02a.svg",
+    "static/media/intel.bd75de5e.png": "/portfolio/static/media/intel.bd75de5e.png",
+    "static/media/me.5c93a03f.jpg": "/portfolio/static/media/me.5c93a03f.jpg",
+    "static/media/oracle.354842ed.png": "/portfolio/static/media/oracle.354842ed.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.903f59e9.js",
+    "static/js/2.d4e55f55.chunk.js",
+    "static/css/main.7719ffdf.chunk.css",
+    "static/js/main.2e8d224b.chunk.js"
+  ]
+}
