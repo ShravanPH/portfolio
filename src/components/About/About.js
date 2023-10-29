@@ -2,7 +2,7 @@ import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import { about } from '../../portfolio'
 import './About.css'
-import SPH2024 from '../SPH2024.pdf'
+import SPH2024 from '../../SPH2024.pdf'
 import me from '../../assets/me.jpg'
 
 const About = () => {
@@ -26,12 +26,14 @@ const About = () => {
         {role && <h2 className='about__role' >{role}</h2>}
         <p className='about__desc' >{description && description}</p>
         <div style={{marginTop:50}}> 
-            <a href={SPH2024}>
+        {/* <embed src={SPH2024} width="800px" height="2100px" /> */}
+            <a href={SPH2024}  >
               <span type='button' className='btn btn--outline '>
                 Resume
-              </span>
+              </span> 
             </a>
-            {social && (
+
+              {social && (
             <>
               {social.github && (
                 
